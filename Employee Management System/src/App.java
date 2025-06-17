@@ -23,7 +23,9 @@ public class App extends JFrame implements ActionListener
         heading.setForeground(Color.red);
         add(heading);
 
-        ImageIcon i = new ImageIcon(ClassLoader.getSystemResource("icon/employee.png"));
+        ImageIcon i = new ImageIcon(ClassLoader.getSystemResource("icons/employee.png"));
+        ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("icons/employee.png"));
+
         Image i2=i.getImage().getScaledInstance(1100, 700, Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel image=new JLabel(i3);

@@ -6,7 +6,7 @@ public class database {
 
     public database () {
         try {
-            //Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             c = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeemanagementsystem", "root", "Saini@161114");
             s = c.createStatement();
         } catch (Exception e) {

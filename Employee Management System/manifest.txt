@@ -1,0 +1,2 @@
+Main-Class: App
+Class-Path: lib/jcalendar-1.4.jar lib/rs2xml.jar lib/mysql-connector-j-9.0.0.jar lib/calendar-2.1.0.jar
